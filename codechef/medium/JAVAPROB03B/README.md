@@ -4,20 +4,23 @@
 
 ## Problem
 
-_Description not available._
+### Hello World!! - Practice
+- It’s time for your first Java Hello World program.
+- Complete the code to print ‘Hello World!!’ in Java, and don’t forget to submit it.
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-08T17:13:24.005Z  
+**Submitted:** 2026-09-08T17:14:33.800Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
-	    // Printing a Hello World!! message
-        System.out.println("Hello World!!");   
+	    
+	    // Write the code below to print "Hello World!!"
+	    System.out.println("Hello World!!");
     }
 }
 
