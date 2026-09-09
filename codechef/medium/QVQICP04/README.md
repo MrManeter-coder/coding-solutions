@@ -22,13 +22,13 @@ class Codechef; {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T14:03:22.662Z  
+**Submitted:** 2026-09-09T14:10:24.765Z  
 
 ```cpp
 class Codechef {
     public static void main(String[] args) {
 	    // Printing a good morning greeting message
-        System.out.println("Good morning!") ;
+        System.out.println("Good morning!");  
     }
 }
 
