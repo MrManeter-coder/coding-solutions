@@ -25,13 +25,13 @@ Main.java:4: error: ';' expected
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T14:03:02.081Z  
+**Submitted:** 2026-09-09T14:04:56.168Z  
 
 ```java
 class Codechef {
     public static void main(String[] args) {
 	    // Printing a good morning greeting message
-        System.out.println("Good morning!") ;
+        System.out.println("Good morning!");  
     }
 }
 
