@@ -63,7 +63,7 @@ The team has scored $\ge 12$ points. Hence it does qualify.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-10T06:52:18.850Z  
+**Submitted:** 2026-09-10T06:54:48.980Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -72,8 +72,11 @@ using namespace std;
 int main() {
 int x;
 cin>>x;
-while(x--)
-cout<<(x>=12 ? "Yes" : "No")<<endl;
+if(x>=12){
+    cout<<"Yes"<<endl;
+}else{
+    cout<<"No"<<endl;
+}
 
 }
 
