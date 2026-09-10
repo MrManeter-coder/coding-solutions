@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin>>t;
+    while(t--){
+        int n;
+        cin>>n;
+        int a[n];
+        for(int i=0;i<n;i++){
+            cin>>a[i];
+        }
+        int firstmax = INT_MIN;
+        int secondMax = INT_MIN;
+        
+        for(int i = 0; i<n; i++){
+            if(a[i] > firstmax){
+                secondMax = firstmax;
+                firstmax = a[i];
+            }else if(a[i] > secondMax && a[i] != firstmax){
+                secondMax = a[i];
+            }
+        }
+        int maxsum = firstmax + secondMax;
+        cout<<maxsum<<endl;
+    }
+}
