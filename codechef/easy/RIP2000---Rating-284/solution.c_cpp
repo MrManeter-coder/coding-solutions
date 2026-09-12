@@ -1,16 +1,9 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    int T;
-    cin >> T;
+ int n;
+ cin>>n;
+ cout<<n*4<<endl;
 
-    while (T--) {
-        int X, Y;
-        cin >> X >> Y;
-
-        cout << max(X, Y) << endl;
-    }
-
-    return 0;
 }
