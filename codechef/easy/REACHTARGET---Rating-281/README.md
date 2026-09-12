@@ -1,0 +1,38 @@
+# REACHTARGET - Rating 281
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
+
+## Problem
+
+_Description not available._
+
+## Solution
+
+**Language:** c_cpp  
+**Runtime:** N/A  
+**Memory:** N/A  
+**Submitted:** 2026-09-12T17:19:23.932Z  
+
+```c_cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t,x,y;
+    cin>>t;
+    while(t--){
+        cin>>x>>y;
+        if(x>y){
+            cout<<"A"<<endl;
+        }else{
+            cout<<"B"<<endl;
+        }
+    }
+
+}
+
+```
+
+---
+
+[View on CodeChef](https://www.codechef.com/problems/REACHTARGET)
