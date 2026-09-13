@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t;
+	float x, y,z;
+	cin>>t;
+	while(t--){
+	    cin>>x>>y>>z;
+	    if(((x*y)/2.0)<z){
+	        cout<<"YES"<<endl;
+	    }else{
+	        cout<<"NO"<<endl;
+	    }
+	}
+
+}
