@@ -52,22 +52,20 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-13T09:32:27.143Z  
+**Submitted:** 2026-09-13T09:33:38.096Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	int t,x,y;
+	int t;
 	cin>>t;
-	while(t--){
-	    cin>>x>>y;
-	    if(3*x>2*y){
-	        cout<<2*y<<endl;
-	    }else{
-	        cout<<3*x<<endl;
-	    }
+	while(t--)
+	{
+	    int x, y;
+        cin >> x >> y;
+        cout << min(3 * x, 2 * y) << '\n';
 	}
 
 }
