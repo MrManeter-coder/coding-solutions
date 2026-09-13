@@ -1,0 +1,38 @@
+# INVESTMENT - Rating 352
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
+
+## Problem
+
+_Description not available._
+
+## Solution
+
+**Language:** c_cpp  
+**Runtime:** N/A  
+**Memory:** N/A  
+**Submitted:** 2026-09-13T08:58:58.913Z  
+
+```c_cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+int t, x;
+cin>>t;
+while(t--){
+    cin>>x;
+    if(x>=1&&x<=4){
+        cout<<"YES"<<endl;
+    }else{
+        cout<<"NO"<<endl;
+    }
+}
+
+}
+
+```
+
+---
+
+[View on CodeChef](https://www.codechef.com/problems/INVESTMENT)
