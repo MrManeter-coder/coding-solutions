@@ -2,15 +2,18 @@
 using namespace std;
 
 int main() {
-	int t,a,b,c;
+	int t,x;
 	cin>>t;
 	while(t--){
-	    cin>>a>>b>>c;
-	    int d = a+b+c;
-	    if(d<=1){
-	        cout<<"Water filling time"<<endl;
+	    cin>>x;
+	    if(x<=100){
+	        cout<<x<<endl;
+	    }else if(x>100&&x<=1000){
+	        cout<<x-25<<endl;
+	    }else if(x>1000&&x<=5000){
+	        cout<<x-100<<endl;
 	    }else{
-	        cout<<"Not now"<<endl;
+	        cout<<x-500<<endl;
 	    }
 	}
 
