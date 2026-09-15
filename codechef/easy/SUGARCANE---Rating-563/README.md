@@ -61,7 +61,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-15T09:06:39.055Z  
+**Submitted:** 2026-09-15T09:08:21.030Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -69,12 +69,10 @@ using namespace std;
 
 int main() {
 	int t,n;
-	float profit;
 	cin>>t;
 	while(t--){
 	    cin>>n;
-	    profit =50 - ((70.00/100.00)*50);
-	    cout<<profit*n<<endl;
+	    cout<<15*n<<endl;
 	}
 
 }
