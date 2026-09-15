@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t,n;
+	float profit;
+	cin>>t;
+	while(t--){
+	    cin>>n;
+	    profit =50 - ((70.00/100.00)*50);
+	    cout<<profit*n<<endl;
+	}
+
+}
